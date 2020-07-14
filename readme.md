@@ -1,12 +1,12 @@
-#build the docker
+#Build the docker
 
 docker build -t learning-docker-python .
 
-#run the docker
+#Run the docker
 
 docker run -i -t --rm learning-docker-python
 
 
-#docker for ruby
+#Build docker for ruby
 
 docker build -t learning-docker-ruby . -f Dockerfile2

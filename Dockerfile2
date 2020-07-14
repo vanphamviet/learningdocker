@@ -1,6 +1,6 @@
 #declare base
 FROM ruby:latest
 
-COPY src /docker-learning-ruby
+COPY src/ruby /docker-learning-ruby
 
 CMD ["ruby", "/docker-learning-ruby/myapp.rb"]
